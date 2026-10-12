@@ -2367,7 +2367,7 @@ export default function AdminHomePage() {
           if (res.ok) {
             showToast('সফলভাবে লগআউট হয়েছে', 'success');
             setTimeout(() => {
-              router.push('/admin/login');
+              router.push('/login');
             }, 800);
           } else {
             showToast('লগআউট করতে সমস্যা হয়েছে', 'error');
