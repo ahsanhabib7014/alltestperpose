@@ -160,7 +160,7 @@ const getValidationRule = (method) => {
     return { minLength: 20, maxLength: 50, label: 'USDT Address', onlyDigits: false };
   }
   if (upper.includes('BINANCE')) {
-    return { minLength: 5, maxLength: 20, label: 'Binance Pay ID', onlyDigits: true };
+    return { minLength: 5, maxLength: 10, label: 'Binance Pay ID', onlyDigits: true };
   }
   if (upper.includes('BTC') || upper.includes('BITCOIN')) {
     return { minLength: 26, maxLength: 42, label: 'Bitcoin Address', onlyDigits: false };
