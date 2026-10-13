@@ -1855,7 +1855,7 @@ const getMethodConfig = (methodName) => {
   if (upper.includes('USDT') && (upper.includes('TRC') || upper.includes('TRON'))) return { length: 34, onlyDigits: false, placeholder: 'USDT TRC20 Address', label: 'USDT TRC20 Address (৩৪ character)' };
   if (upper.includes('USDT') && (upper.includes('BEP') || upper.includes('BSC'))) return { length: 42, onlyDigits: false, placeholder: 'USDT BEP20 Address', label: 'USDT BEP20 Address (৪২ character)' };
   if (upper.includes('USDT')) return { length: 34, onlyDigits: false, placeholder: 'USDT Address', label: 'USDT Address (৩৪ character)' };
-  if (upper.includes('BINANCE')) return { minLength: 5, maxLength: 20, onlyDigits: true, placeholder: 'Binance Pay ID', label: 'Binance Pay ID (৫-২০ ডিজিট)' };
+  if (upper.includes('BINANCE')) return { minLength: 5, maxLength: 10, onlyDigits: true, placeholder: 'Binance Pay ID', label: 'Binance Pay ID (৫-২০ ডিজিট)' };
   if (upper.includes('BTC') || upper.includes('BITCOIN')) return { length: 34, onlyDigits: false, placeholder: 'Bitcoin Address', label: 'Bitcoin Address (৩৪ character)' };
   if (upper.includes('ETH') || upper.includes('ETHEREUM')) return { length: 42, onlyDigits: false, placeholder: 'ETH Address (0x...)', label: 'ETH Address (৪২ character)' };
   if (upper.includes('BKASH') || upper === 'BK') return { length: 11, onlyDigits: true, placeholder: '01700000000', label: '১১ ডিজিটের bKash নম্বর' };
