@@ -1842,7 +1842,7 @@ const METHOD_CONFIG = {
   'Nagad':       { length: 11, onlyDigits: true, placeholder: '01700000000', label: '১১ ডিজিটের Nagad নম্বর' },
   'Rocket':      { length: 11, onlyDigits: true, placeholder: '01700000000', label: '১১ ডিজিটের Rocket নম্বর' },
   'Upay':        { length: 11, onlyDigits: true, placeholder: '01700000000', label: '১১ ডিজিটের Upay নম্বর' },
-  'Binance Pay': { minLength: 5, maxLength: 20, onlyDigits: true, placeholder: 'Binance Pay ID', label: 'Binance Pay ID (৫-২০ ডিজিট)' },
+  'Binance Pay': { minLength: 5, maxLength: 10, onlyDigits: true, placeholder: 'Binance Pay ID', label: 'Binance Pay ID (৫-১০ ডিজিট)' },
   'TRX(TRON)':   { length: 34, onlyDigits: false, placeholder: 'TRX Wallet Address (T...)', label: 'TRX Wallet Address (৩৪ character)' },
 };
 
